@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  .container {
+    @apply m-auto max-w-[375px] px-5 tablet:max-w-[768px] tablet:px-10 laptop:max-w-[1280px] laptop:px-8;
+  }
+}
