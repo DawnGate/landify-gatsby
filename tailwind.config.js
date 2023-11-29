@@ -28,6 +28,27 @@ module.exports = {
             letterSpacing: "-1.8px",
           },
         ],
+        "body-md": [
+          "1.125rem",
+          {
+            lineHeight: "1.75rem",
+            letterSpacing: "normal",
+          },
+        ],
+        "body-sm": [
+          "0.875rem",
+          {
+            lineHeight: "1.25rem",
+            letterSpacing: "normal",
+          },
+        ],
+        "body-xs": [
+          "0.75rem",
+          {
+            lineHeight: "1rem",
+            letterSpacing: "normal",
+          },
+        ],
       },
       screens: {
         phone: "375px",
