@@ -1,11 +1,11 @@
-import React from "react";
-import { HeadFC } from "gatsby";
+import React from 'react'
+import { HeadFC } from 'gatsby'
 
-import Navbar from "../components/Navbar";
+import Navbar from '../components/Navbar'
 
 const pageStyles = {
-  fontFamily: "Inter, -apple-system, Roboto, sans-serif, serif",
-};
+  fontFamily: 'Inter, -apple-system, Roboto, sans-serif, serif',
+}
 
 const DemoPage = () => {
   return (
@@ -15,13 +15,13 @@ const DemoPage = () => {
         <h1 className="text-xl font-bold">Hello</h1>
       </section>
     </main>
-  );
-};
+  )
+}
 
-export default DemoPage;
+export default DemoPage
 
 export const Head: HeadFC = () => (
   <>
     <title>Landify</title>
   </>
-);
+)
