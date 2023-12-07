@@ -6,4 +6,18 @@
   .container {
     @apply m-auto max-w-[375px] px-5 tablet:max-w-[768px] tablet:px-10 laptop:max-w-[1280px] laptop:px-8;
   }
+
+  .inset-center {
+    top: 50%;
+    left: 50%;
+    @apply -translate-x-1/2 -translate-y-1/2;
+  }
+  .inset-y-center {
+    top: 50%;
+    @apply -translate-y-1/2;
+  }
+  .inset-x-center {
+    left: 50%;
+    @apply -translate-x-1/2;
+  }
 }
