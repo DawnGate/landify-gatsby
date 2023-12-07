@@ -3,6 +3,7 @@ import { HeadFC } from 'gatsby'
 
 import Navbar from './demo/Navbar'
 import Hero from './demo/Hero'
+import LogoClouds from './demo/LogoClouds'
 
 const pageStyles = {
   fontFamily: 'Inter, -apple-system, Roboto, sans-serif, serif',
@@ -16,6 +17,9 @@ const DemoPage = () => {
       </section>
       <section className="hero container">
         <Hero />
+      </section>
+      <section className="hero container">
+        <LogoClouds />
       </section>
     </main>
   )

@@ -15,14 +15,17 @@ const Hero = () => {
           know what to do, why it matters, and how to get it done.
         </p>
         <div className="mt-8 flex items-center justify-start gap-4">
-          <Button size="xl" className="bg-primary-600 text-white">
+          <Button
+            size="xl"
+            className="bg-primary-600 text-white hover:opacity-90 focus:ring-4 focus:ring-primary-900"
+          >
             Get started
           </Button>
           <Button
             size="xl"
-            className="text-primary-600"
+            className="text-primary-600 hover:opacity-90 focus:ring-4 focus:ring-primary-900"
             leftIcon={
-              <EssentialSVGComponent className="[&>path]:stroke-primary-600" />
+              <EssentialSVGComponent className="[&>path]:stroke-primary-600 " />
             }
           >
             Watch video
