@@ -31,11 +31,32 @@ module.exports = {
             letterSpacing: '-1.8px',
           },
         ],
+        lg: [
+          '3rem',
+          {
+            lineHeight: '3.75rem',
+            letterSpacing: '-1.2px',
+          },
+        ],
         md: [
           '2.25rem',
           {
             lineHeight: '2.8125rem',
             letterSpacing: '-0.9px',
+          },
+        ],
+        sm: [
+          '1.875rem',
+          {
+            lineHeight: '2.5rem',
+            letterSpacing: 'normal',
+          },
+        ],
+        xs: [
+          '1.5rem',
+          {
+            lineHeight: '2rem',
+            letterSpacing: 'normal',
           },
         ],
         'body-lg': [

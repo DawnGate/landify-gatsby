@@ -5,7 +5,7 @@ import EssentialSVGComponent from 'components/ImageComponents/EssentialIcon'
 
 const Hero = () => {
   return (
-    <div className="mt-2 flex flex-col justify-between gap-10 pb-20 tablet:gap-0 laptop:mt-20 laptop:flex-row laptop:pb-0">
+    <div className="mt-2 flex flex-col justify-between gap-10 pb-20 tablet:gap-0 laptop:mb-20 laptop:mt-20 laptop:flex-row laptop:pb-0">
       <div className="py-10 tablet:py-20 laptop:max-w-[648px]">
         <h1 className="text-md font-bold text-neutral-900">
           The easiest way to manage projects
