@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         primary: {
           900: '#4C1D95',
+          600: '#7C3AED',
           100: '#EDE9FE',
         },
         secondary: {
@@ -16,6 +17,7 @@ module.exports = {
         },
         neutral: {
           900: '#111827',
+          700: '#374151',
         },
         accent: {
           1: '#C1E5C0',
@@ -29,10 +31,24 @@ module.exports = {
             letterSpacing: '-1.8px',
           },
         ],
-        'body-md': [
+        md: [
+          '2.25rem',
+          {
+            lineHeight: '2.8125rem',
+            letterSpacing: '-0.9px',
+          },
+        ],
+        'body-lg': [
           '1.125rem',
           {
             lineHeight: '1.75rem',
+            letterSpacing: 'normal',
+          },
+        ],
+        'body-md': [
+          '1rem',
+          {
+            lineHeight: '1.5rem',
             letterSpacing: 'normal',
           },
         ],

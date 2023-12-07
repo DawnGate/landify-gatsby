@@ -1,7 +1,8 @@
 import React from 'react'
 import { HeadFC } from 'gatsby'
 
-import Navbar from '../components/Navbar'
+import Navbar from './demo/Navbar'
+import Hero from './demo/Hero'
 
 const pageStyles = {
   fontFamily: 'Inter, -apple-system, Roboto, sans-serif, serif',
@@ -10,9 +11,11 @@ const pageStyles = {
 const DemoPage = () => {
   return (
     <main style={pageStyles}>
-      <section className="hero container">
+      <section className="header container">
         <Navbar />
-        <h1 className="text-xl font-bold">Hello</h1>
+      </section>
+      <section className="hero container">
+        <Hero />
       </section>
     </main>
   )
