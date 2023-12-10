@@ -9,6 +9,7 @@ import Testimonial from './demo/Testimonial'
 import Metrics from './demo/Metrics'
 import Integrations from './demo/Integrations'
 import Cta from './demo/Cta'
+import Footer from './demo/Footer'
 
 const pageStyles = {
   fontFamily: 'Inter, -apple-system, Roboto, sans-serif, serif',
@@ -41,6 +42,11 @@ const DemoPage = () => {
       <section className="features bg-secondary-600 container">
         <Cta />
       </section>
+      <footer>
+        <section className="features container bg-black">
+          <Footer />
+        </section>
+      </footer>
     </main>
   )
 }
