@@ -7,6 +7,7 @@ import LogoClouds from './demo/LogoClouds'
 import Features from './demo/Features'
 import Testimonial from './demo/Testimonial'
 import Metrics from './demo/Metrics'
+import Integrations from './demo/Integrations'
 
 const pageStyles = {
   fontFamily: 'Inter, -apple-system, Roboto, sans-serif, serif',
@@ -32,6 +33,9 @@ const DemoPage = () => {
       </section>
       <section className="features container">
         <Metrics />
+      </section>
+      <section className="features container">
+        <Integrations />
       </section>
     </main>
   )
