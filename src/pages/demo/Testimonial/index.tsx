@@ -51,7 +51,7 @@ const Testimonial = () => {
             alt="Quote mark"
           />
         </div>
-        <div className="mt-8 tablet:mt-10 laptop:max-w-[384px]">
+        <div className="mt-8 tablet:mt-10 laptop:mt-16 laptop:max-w-[384px]">
           <TestimonialItem
             imgSrc="/images/testimonial-item-one.svg"
             content="I used landify and created a landing page for my startup within a week. The Landify UI Kit is simple and highly intuitive, so anyone can use it."
@@ -61,7 +61,7 @@ const Testimonial = () => {
         </div>
       </div>
       <div className="flex-1 flex-col laptop:flex laptop:items-start">
-        <div className="mt-6 laptop:max-w-[488px]">
+        <div className="mt-6 laptop:mt-[76px] laptop:max-w-[488px]">
           <TestimonialItem
             imgSrc="/images/testimonial-item-two.svg"
             content="To quickly start my startup landing page design, I was looking for a landing page UI Kit. Landify is one of the best landing page UI kit I have come across. It’s so flexible, well organized and easily editable."
@@ -69,7 +69,7 @@ const Testimonial = () => {
             authorInformation="Vice President, GoPro"
           />
         </div>
-        <div className="mt-6 laptop:max-w-[384px]">
+        <div className="mt-6 laptop:mt-8 laptop:max-w-[384px]">
           <TestimonialItem
             imgSrc="/images/testimonial-item-three.svg"
             content="Landify saved our time in designing my company page."
