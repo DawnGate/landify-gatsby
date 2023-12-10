@@ -8,6 +8,7 @@ import Features from './demo/Features'
 import Testimonial from './demo/Testimonial'
 import Metrics from './demo/Metrics'
 import Integrations from './demo/Integrations'
+import Cta from './demo/Cta'
 
 const pageStyles = {
   fontFamily: 'Inter, -apple-system, Roboto, sans-serif, serif',
@@ -36,6 +37,9 @@ const DemoPage = () => {
       </section>
       <section className="features container">
         <Integrations />
+      </section>
+      <section className="features bg-secondary-600 container">
+        <Cta />
       </section>
     </main>
   )

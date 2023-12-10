@@ -14,6 +14,7 @@ module.exports = {
         },
         secondary: {
           900: '#2A4E51',
+          600: '#1DB5BE',
         },
         neutral: {
           900: '#111827',

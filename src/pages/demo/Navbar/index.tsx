@@ -1,7 +1,7 @@
 import React from 'react'
-import Logo from '../../../components/Logo'
-import HamburgerSVGComponent from '../../../components/ImageComponents/HamburgerIcon'
-import { AppleBadge, GoogleBadge } from '../../../components/Badges'
+import Logo from 'components/Logo'
+import HamburgerSVGComponent from 'components/ImageComponents/HamburgerIcon'
+import { AppleBadge, GoogleBadge } from 'components/Badges'
 
 const NavItem = ({ title, url }: { title: string; url: string }) => {
   return (
